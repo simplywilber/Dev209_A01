@@ -2588,14 +2588,16 @@ input, select, textarea {
 
 /* Image */
 
+
 	.image {
-		border: 0;
+		border: 5px solid black;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
 			display: block;
+
 		}
 
 		.image.left, .image.right {
