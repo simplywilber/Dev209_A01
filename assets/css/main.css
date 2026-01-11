@@ -2590,7 +2590,7 @@ input, select, textarea {
 
 
 	.image {
-		border: 5px solid black;
+		border: 0;
 		display: inline-block;
 		position: relative;
 	}
@@ -2810,6 +2810,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
+			justify-content: center;
 			padding: 0 0.5rem 0 0;
 			vertical-align: middle;
 		}
@@ -3287,7 +3288,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 8rem 4rem 6rem 6rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
